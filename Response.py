@@ -1,9 +1,9 @@
 class Response(object):
   
-  id
-  text
+  id = 0
+  text = ''
   
-  def __init__(self, id=0, text):
+  def __init__(self, text, id=0):
     super(Response, self).__init__()
     self.id = id
     self.text = text
